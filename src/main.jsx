@@ -7,11 +7,23 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Main from './Components/Main/Main';
+import Hero from './Components/Hero/Hero';
+import Skills from './Components/Skills/Skills';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element:<Main></Main>,
+    children:[
+      {
+        path:"/",
+        element:<Hero></Hero>
+      },
+      {
+        path:"/skills",
+        element:<Skills></Skills>
+      }
+    ]
   },
 ]);
 
