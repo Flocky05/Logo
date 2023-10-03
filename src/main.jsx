@@ -9,6 +9,7 @@ import {
 import Main from './Components/Main/Main';
 import Hero from './Components/Hero/Hero';
 import Skills from './Components/Skills/Skills';
+import Projects from './Components/Projects/Projects';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path:"/skills",
         element:<Skills></Skills>
+      },
+      {
+        path:"/projects",
+        element:<Projects></Projects>
       }
     ]
   },
