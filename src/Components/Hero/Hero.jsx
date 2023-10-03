@@ -1,9 +1,10 @@
 import img1 from "../../assets/images/banner-bg.png"
 import img2 from "../../assets/images/header-img.svg"
 
+
 const Hero = () => {
     return (
-        <div className="grid grid-cols-2 items-center p-20 ">
+        <div className="grid grid-cols-2 items-center p-20" style={{ backgroundImage:`url(${img1})` }}>
            <div>
                 <button className="px-6 p-2 text-center text-lg border-2 my-2">Learn More </button>
                 <h3 className="text-4xl font-bold text-pink-500 my-2">Let`s Do with Us</h3>
