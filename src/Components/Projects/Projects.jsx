@@ -6,13 +6,13 @@ const Projects = () => {
         <div>
             <h2 className="text-3xl font-semibold text-center p-6 py-10">This is Project Section</h2>
             <div className="grid grid-cols-3 gap-5">
-                <div className="p-8  hover:transform hover:-skew-y-12 duration-700">
+                <div className="p-8  hover:transform skew-y-12 duration-700 hover:skew-y-0">
                     <img src={img1} alt="" />
                 </div>
-                <div className="p-8 hover:p-0 duration-700">
+                <div className="p-8 hover:p-0 duration-700 mt-14">
                     <img src={img2} alt="" />
                 </div>
-                <div className="p-8 hover:transform hover:skew-y-12 duration-700">
+                <div className="p-8 hover:transform -skew-y-12 duration-700 hover:-skew-y-0">
                     <img src={img3} alt="" />
                 </div>
                 
