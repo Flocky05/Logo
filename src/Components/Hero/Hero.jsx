@@ -1,5 +1,6 @@
 import img1 from "../../assets/images/banner-bg.png"
 import img2 from "../../assets/images/header-img.svg"
+import Contract from "../Contract/Contract";
 import GetInTouch from "../GetInTouch/GetInTouch";
 
 
@@ -18,6 +19,7 @@ const Hero = () => {
                 </div>
         </div>
         <GetInTouch></GetInTouch>
+        <Contract></Contract>
      </div>
     );
 };
